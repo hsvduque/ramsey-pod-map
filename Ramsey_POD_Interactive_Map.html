@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fac74f6f9789159344c694b288c7ea0f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fac74f6f9789159344c694b288c7ea0f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fac74f6f9789159344c694b288c7ea0f = L.map(
+                "map_fac74f6f9789159344c694b288c7ea0f",
+                {
+                    center: [44.973939689999995, -93.10411142],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c64d1034cd2d95fa22f83f24013d30b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+            var circle_marker_3ffc31623d13777b85d935b0b5bf0e7a = L.circleMarker(
+                [45.021389, -93.156667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_bdd1b8cd084279acae7d3dad7537b0f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_a247968d3ba2b0d369a4a56a2a76a64d = $(`<div id="html_a247968d3ba2b0d369a4a56a2a76a64d" style="width: 100.0%; height: 100.0%;"><b>RCL – Roseville</b><br>2180 N Hamline Ave, Roseville, MN 55113<br>Community Center/Library<br>Readiness: 8 (High)</div>`)[0];
+            popup_bdd1b8cd084279acae7d3dad7537b0f0.setContent(html_a247968d3ba2b0d369a4a56a2a76a64d);
+        
+
+        circle_marker_3ffc31623d13777b85d935b0b5bf0e7a.bindPopup(popup_bdd1b8cd084279acae7d3dad7537b0f0)
+        ;
+
+        
+    
+    
+            var circle_marker_35015f3a6d6c315d9113aa2bac4268fc = L.circleMarker(
+                [45.045556, -93.065833],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_4ea3db58999d8e0d3dbe9c978e158e7b = L.popup({"maxWidth": 300});
+
+        
+            var html_ea70434221431c0d635927feca83c372 = $(`<div id="html_ea70434221431c0d635927feca83c372" style="width: 100.0%; height: 100.0%;"><b>North Dale Recreation Center</b><br>1414 St Albans St N, Saint Paul, MN 55117<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_4ea3db58999d8e0d3dbe9c978e158e7b.setContent(html_ea70434221431c0d635927feca83c372);
+        
+
+        circle_marker_35015f3a6d6c315d9113aa2bac4268fc.bindPopup(popup_4ea3db58999d8e0d3dbe9c978e158e7b)
+        ;
+
+        
+    
+    
+            var circle_marker_5375c78b134303884ba59ec644d77dca = L.circleMarker(
+                [45.018889, -93.006944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_9dc453311fdc2e88f199011425c47cb5 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4adfe4d8b09288a9060a683d55f2af1 = $(`<div id="html_a4adfe4d8b09288a9060a683d55f2af1" style="width: 100.0%; height: 100.0%;"><b>Maplewood YMCA Community Center</b><br>2100 White Bear Ave N, Maplewood, MN 55109<br>Community Center<br>Readiness: 9 (High)</div>`)[0];
+            popup_9dc453311fdc2e88f199011425c47cb5.setContent(html_a4adfe4d8b09288a9060a683d55f2af1);
+        
+
+        circle_marker_5375c78b134303884ba59ec644d77dca.bindPopup(popup_9dc453311fdc2e88f199011425c47cb5)
+        ;
+
+        
+    
+    
+            var circle_marker_30ed4f5d8d2b0612efb732d49de0eb5d = L.circleMarker(
+                [44.962222, -93.156111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_66fb7f71bd6f6a4f4700c4d45ff55b22 = L.popup({"maxWidth": 300});
+
+        
+            var html_68fc23f8cea0a9f7564b7cfd4bde6bad = $(`<div id="html_68fc23f8cea0a9f7564b7cfd4bde6bad" style="width: 100.0%; height: 100.0%;"><b>Central Senior High School</b><br>275 Lexington Pkwy N, Saint Paul, MN 55104<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_66fb7f71bd6f6a4f4700c4d45ff55b22.setContent(html_68fc23f8cea0a9f7564b7cfd4bde6bad);
+        
+
+        circle_marker_30ed4f5d8d2b0612efb732d49de0eb5d.bindPopup(popup_66fb7f71bd6f6a4f4700c4d45ff55b22)
+        ;
+
+        
+    
+    
+            var circle_marker_e92cfea6b46441c239e0ddef7c952d2b = L.circleMarker(
+                [45.041667, -93.108889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_b7cd28240296ad760220527db602c1e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_fb0d6743416d590888264e0bab7b72a6 = $(`<div id="html_fb0d6743416d590888264e0bab7b72a6" style="width: 100.0%; height: 100.0%;"><b>Como Park Senior High School</b><br>740 Rose Ave W, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_b7cd28240296ad760220527db602c1e5.setContent(html_fb0d6743416d590888264e0bab7b72a6);
+        
+
+        circle_marker_e92cfea6b46441c239e0ddef7c952d2b.bindPopup(popup_b7cd28240296ad760220527db602c1e5)
+        ;
+
+        
+    
+    
+            var circle_marker_378980929741b7bb7dd1c6da4f26f6cc = L.circleMarker(
+                [44.956389, -93.160278],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e25a3a0b9f081afa2b57a383313355c1 = L.popup({"maxWidth": 300});
+
+        
+            var html_c135dba650af7bef70fba7fb85fa0431 = $(`<div id="html_c135dba650af7bef70fba7fb85fa0431" style="width: 100.0%; height: 100.0%;"><b>AGAPE High School</b><br>1037 University Ave W, Saint Paul, MN 55104<br>School<br>Readiness: 6 (Moderate)</div>`)[0];
+            popup_e25a3a0b9f081afa2b57a383313355c1.setContent(html_c135dba650af7bef70fba7fb85fa0431);
+        
+
+        circle_marker_378980929741b7bb7dd1c6da4f26f6cc.bindPopup(popup_e25a3a0b9f081afa2b57a383313355c1)
+        ;
+
+        
+    
+    
+            var circle_marker_630f54738039bf8827e8f736ad00476b = L.circleMarker(
+                [45.021944, -93.167222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_48fbc3550863f30db0c06ec6eae9f3e9 = L.popup({"maxWidth": 300});
+
+        
+            var html_7afcb979f7a36588f93eceaac29f77f8 = $(`<div id="html_7afcb979f7a36588f93eceaac29f77f8" style="width: 100.0%; height: 100.0%;"><b>Roseville Lutheran Church</b><br>1215 Roselawn Ave W, Roseville, MN 55113<br>Church<br>Readiness: 8 (High)</div>`)[0];
+            popup_48fbc3550863f30db0c06ec6eae9f3e9.setContent(html_7afcb979f7a36588f93eceaac29f77f8);
+        
+
+        circle_marker_630f54738039bf8827e8f736ad00476b.bindPopup(popup_48fbc3550863f30db0c06ec6eae9f3e9)
+        ;
+
+        
+    
+    
+            var circle_marker_7379a412044c13b937417c43d9adf45e = L.circleMarker(
+                [45.020833, -93.175556],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8131431792ed981c86be41ae7129ff6c = L.popup({"maxWidth": 300});
+
+        
+            var html_0cce1878db723ad1365c8bb0fc20b92e = $(`<div id="html_0cce1878db723ad1365c8bb0fc20b92e" style="width: 100.0%; height: 100.0%;"><b>St. Michael's Lutheran Church</b><br>1660 County Rd B W, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_8131431792ed981c86be41ae7129ff6c.setContent(html_0cce1878db723ad1365c8bb0fc20b92e);
+        
+
+        circle_marker_7379a412044c13b937417c43d9adf45e.bindPopup(popup_8131431792ed981c86be41ae7129ff6c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc321dbbc9b13dd7b6922983352bc28b = L.circleMarker(
+                [44.946944, -93.128333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_f2ecbea0be6cdb4d73b56ab73cb9bd0c = L.popup({"maxWidth": 300});
+
+        
+            var html_954dc3b75c5b3b135517c1f844a29a0e = $(`<div id="html_954dc3b75c5b3b135517c1f844a29a0e" style="width: 100.0%; height: 100.0%;"><b>Cathedral of Saint Paul</b><br>239 Selby Ave, Saint Paul, MN 55102<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_f2ecbea0be6cdb4d73b56ab73cb9bd0c.setContent(html_954dc3b75c5b3b135517c1f844a29a0e);
+        
+
+        circle_marker_dc321dbbc9b13dd7b6922983352bc28b.bindPopup(popup_f2ecbea0be6cdb4d73b56ab73cb9bd0c)
+        ;
+
+        
+    
+    
+            var circle_marker_913060ecb63e5f09419c118a949e7ccd = L.circleMarker(
+                [44.936944, -93.168333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_49962ac713bba6bcf4730a5bc3c05634 = L.popup({"maxWidth": 300});
+
+        
+            var html_388a2ae84cf4f0a35df6db32a8d0e9b5 = $(`<div id="html_388a2ae84cf4f0a35df6db32a8d0e9b5" style="width: 100.0%; height: 100.0%;"><b>St. George Greek Orthodox Church</b><br>1111 Summit Ave, Saint Paul, MN 55105<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_49962ac713bba6bcf4730a5bc3c05634.setContent(html_388a2ae84cf4f0a35df6db32a8d0e9b5);
+        
+
+        circle_marker_913060ecb63e5f09419c118a949e7ccd.bindPopup(popup_49962ac713bba6bcf4730a5bc3c05634)
+        ;
+
+        
+    
+    
+            var circle_marker_2233cfa4165c6ce1caf42a64df637c61 = L.circleMarker(
+                [44.958889, -92.974444],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_b919e091e1238a4dd35f7dc5d6b24c62 = L.popup({"maxWidth": 300});
+
+        
+            var html_8259bda398c0e7cde6ca8e9a69b32efc = $(`<div id="html_8259bda398c0e7cde6ca8e9a69b32efc" style="width: 100.0%; height: 100.0%;"><b>Blessed Sacrament Catholic Church</b><br>2119 Stillwater Ave E, Saint Paul, MN 55119<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_b919e091e1238a4dd35f7dc5d6b24c62.setContent(html_8259bda398c0e7cde6ca8e9a69b32efc);
+        
+
+        circle_marker_2233cfa4165c6ce1caf42a64df637c61.bindPopup(popup_b919e091e1238a4dd35f7dc5d6b24c62)
+        ;
+
+        
+    
+    
+            var circle_marker_4d57fcecc7d874f610c667867d816c27 = L.circleMarker(
+                [44.925556, -93.095833],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_088b04a0ee6ec5f4dd32f6249b1bd4d6 = L.popup({"maxWidth": 300});
+
+        
+            var html_28f6f810c742ed858a6a10b33495a9ee = $(`<div id="html_28f6f810c742ed858a6a10b33495a9ee" style="width: 100.0%; height: 100.0%;"><b>Our Lady of Guadalupe Parish</b><br>401 Concord St, Saint Paul, MN 55107<br>Church<br>Readiness: 6 (Moderate)</div>`)[0];
+            popup_088b04a0ee6ec5f4dd32f6249b1bd4d6.setContent(html_28f6f810c742ed858a6a10b33495a9ee);
+        
+
+        circle_marker_4d57fcecc7d874f610c667867d816c27.bindPopup(popup_088b04a0ee6ec5f4dd32f6249b1bd4d6)
+        ;
+
+        
+    
+    
+            var circle_marker_bd2119dc189bffd9e77eb841b4dcc339 = L.circleMarker(
+                [45.013889, -93.005556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_fdd5395e503d530be66ff0e833137c61 = L.popup({"maxWidth": 300});
+
+        
+            var html_8971d7389c5227c69b9c7b16a66d179c = $(`<div id="html_8971d7389c5227c69b9c7b16a66d179c" style="width: 100.0%; height: 100.0%;"><b>St. Peter Catholic Church (North St. Paul)</b><br>2600 N Margaret St, North St Paul, MN 55109<br>Church<br>Readiness: 8 (High)</div>`)[0];
+            popup_fdd5395e503d530be66ff0e833137c61.setContent(html_8971d7389c5227c69b9c7b16a66d179c);
+        
+
+        circle_marker_bd2119dc189bffd9e77eb841b4dcc339.bindPopup(popup_fdd5395e503d530be66ff0e833137c61)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f7db5b50a14532e37ea39e0158e128 = L.circleMarker(
+                [44.938889, -93.116667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8565f33f3107c2279480fb13039d9e0e = L.popup({"maxWidth": 300});
+
+        
+            var html_3bbd930491e0f5516569a194a6e5037b = $(`<div id="html_3bbd930491e0f5516569a194a6e5037b" style="width: 100.0%; height: 100.0%;"><b>Adams Spanish Immersion</b><br>615 Chatsworth St S, Saint Paul, MN 55102<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_8565f33f3107c2279480fb13039d9e0e.setContent(html_3bbd930491e0f5516569a194a6e5037b);
+        
+
+        circle_marker_d2f7db5b50a14532e37ea39e0158e128.bindPopup(popup_8565f33f3107c2279480fb13039d9e0e)
+        ;
+
+        
+    
+    
+            var circle_marker_db28e3a379da18c60cb8e857df5b5926 = L.circleMarker(
+                [44.949444, -93.071111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5b987d29e6ad7525f34ee03eb3109782 = L.popup({"maxWidth": 300});
+
+        
+            var html_6d76a1d39335e165ac21120794c52f13 = $(`<div id="html_6d76a1d39335e165ac21120794c52f13" style="width: 100.0%; height: 100.0%;"><b>American Indian Magnet</b><br>1075 3rd St E, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_5b987d29e6ad7525f34ee03eb3109782.setContent(html_6d76a1d39335e165ac21120794c52f13);
+        
+
+        circle_marker_db28e3a379da18c60cb8e857df5b5926.bindPopup(popup_5b987d29e6ad7525f34ee03eb3109782)
+        ;
+
+        
+    
+    
+            var circle_marker_6852c5ddebe9d983dd55f83ef0e2f26e = L.circleMarker(
+                [44.971944, -93.136111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_4a617a9c337ce9cf2809a7a416a2765b = L.popup({"maxWidth": 300});
+
+        
+            var html_4cfdbe71e97e0734ffa11fadc231bf2b = $(`<div id="html_4cfdbe71e97e0734ffa11fadc231bf2b" style="width: 100.0%; height: 100.0%;"><b>Barack and Michelle Obama Montessori</b><br>707 Holly Ave, Saint Paul, MN 55104<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_4a617a9c337ce9cf2809a7a416a2765b.setContent(html_4cfdbe71e97e0734ffa11fadc231bf2b);
+        
+
+        circle_marker_6852c5ddebe9d983dd55f83ef0e2f26e.bindPopup(popup_4a617a9c337ce9cf2809a7a416a2765b)
+        ;
+
+        
+    
+    
+            var circle_marker_8ae11200392548b9ae8ad1658872ac09 = L.circleMarker(
+                [44.954167, -92.978889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_58ac63aa9363794388cd36b8de58df21 = L.popup({"maxWidth": 300});
+
+        
+            var html_5dc1386cc86f306fd690abdfdef19f5c = $(`<div id="html_5dc1386cc86f306fd690abdfdef19f5c" style="width: 100.0%; height: 100.0%;"><b>Battle Creek Elementary</b><br>60 Ruth St S, Saint Paul, MN 55119<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_58ac63aa9363794388cd36b8de58df21.setContent(html_5dc1386cc86f306fd690abdfdef19f5c);
+        
+
+        circle_marker_8ae11200392548b9ae8ad1658872ac09.bindPopup(popup_58ac63aa9363794388cd36b8de58df21)
+        ;
+
+        
+    
+    
+            var circle_marker_76ad1eae1930ae5e33c67b6e9445206f = L.circleMarker(
+                [44.980556, -93.155556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_f8d241fbbc05ec7652aec89c362b933d = L.popup({"maxWidth": 300});
+
+        
+            var html_40eb1690ae2a6d9c583566e55f3021b3 = $(`<div id="html_40eb1690ae2a6d9c583566e55f3021b3" style="width: 100.0%; height: 100.0%;"><b>Benjamin E. Mays IB World School</b><br>560 Concordia Ave, Saint Paul, MN 55103<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_f8d241fbbc05ec7652aec89c362b933d.setContent(html_40eb1690ae2a6d9c583566e55f3021b3);
+        
+
+        circle_marker_76ad1eae1930ae5e33c67b6e9445206f.bindPopup(popup_f8d241fbbc05ec7652aec89c362b933d)
+        ;
+
+        
+    
+    
+            var circle_marker_1c4d16aa733adcdf7068edbd5d36b4d5 = L.circleMarker(
+                [44.916667, -93.066667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a65ebc0589ee3b5fa9bc65d01d71651f = L.popup({"maxWidth": 300});
+
+        
+            var html_cd1f4651d6b5c7dc7829cd43ac5e443f = $(`<div id="html_cd1f4651d6b5c7dc7829cd43ac5e443f" style="width: 100.0%; height: 100.0%;"><b>Bruce F. Vento Elementary</b><br>409 Case Ave, Saint Paul, MN 55130<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_a65ebc0589ee3b5fa9bc65d01d71651f.setContent(html_cd1f4651d6b5c7dc7829cd43ac5e443f);
+        
+
+        circle_marker_1c4d16aa733adcdf7068edbd5d36b4d5.bindPopup(popup_a65ebc0589ee3b5fa9bc65d01d71651f)
+        ;
+
+        
+    
+    
+            var circle_marker_0b59ac80e4c5f6a6238ce8f7f98cd72d = L.circleMarker(
+                [44.980556, -93.155556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_fb9fdbdf62a525f86c02bd19756afc5b = L.popup({"maxWidth": 300});
+
+        
+            var html_ed3fb05ede6aeb22400cb22e8f8327b8 = $(`<div id="html_ed3fb05ede6aeb22400cb22e8f8327b8" style="width: 100.0%; height: 100.0%;"><b>Capitol Hill Gifted & Talented</b><br>560 Concordia Ave, Saint Paul, MN 55103<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_fb9fdbdf62a525f86c02bd19756afc5b.setContent(html_ed3fb05ede6aeb22400cb22e8f8327b8);
+        
+
+        circle_marker_0b59ac80e4c5f6a6238ce8f7f98cd72d.bindPopup(popup_fb9fdbdf62a525f86c02bd19756afc5b)
+        ;
+
+        
+    
+    
+            var circle_marker_7cc50130e5d13a05b03e84fbb8003f3d = L.circleMarker(
+                [44.953889, -93.175556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_4af61d527bce572e951d3caadb74e0ea = L.popup({"maxWidth": 300});
+
+        
+            var html_111ed7fd92cbe98031441ee39c4496f7 = $(`<div id="html_111ed7fd92cbe98031441ee39c4496f7" style="width: 100.0%; height: 100.0%;"><b>Chelsea Heights Elementary</b><br>1557 Huron St, Saint Paul, MN 55108<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_4af61d527bce572e951d3caadb74e0ea.setContent(html_111ed7fd92cbe98031441ee39c4496f7);
+        
+
+        circle_marker_7cc50130e5d13a05b03e84fbb8003f3d.bindPopup(popup_4af61d527bce572e951d3caadb74e0ea)
+        ;
+
+        
+    
+    
+            var circle_marker_ad598f62523adce7442fe99785f6b598 = L.circleMarker(
+                [44.915833, -93.185278],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_f6bd2e9417fb3c0860e58c71abf67a14 = L.popup({"maxWidth": 300});
+
+        
+            var html_fa0f380d2e1e4ab8cfe1aefff5954047 = $(`<div id="html_fa0f380d2e1e4ab8cfe1aefff5954047" style="width: 100.0%; height: 100.0%;"><b>Cherokee Heights Elementary</b><br>694 Charlton St, Saint Paul, MN 55107<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_f6bd2e9417fb3c0860e58c71abf67a14.setContent(html_fa0f380d2e1e4ab8cfe1aefff5954047);
+        
+
+        circle_marker_ad598f62523adce7442fe99785f6b598.bindPopup(popup_f6bd2e9417fb3c0860e58c71abf67a14)
+        ;
+
+        
+    
+    
+            var circle_marker_9533da48578d2f22eeb6c4bac0f68901 = L.circleMarker(
+                [44.976111, -93.183333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_b8d62aafb431b43dc19cb73a7d1735bf = L.popup({"maxWidth": 300});
+
+        
+            var html_6305dcb25efcc56f38530d3806422c36 = $(`<div id="html_6305dcb25efcc56f38530d3806422c36" style="width: 100.0%; height: 100.0%;"><b>Como Park Elementary</b><br>780 Wheelock Pkwy W, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_b8d62aafb431b43dc19cb73a7d1735bf.setContent(html_6305dcb25efcc56f38530d3806422c36);
+        
+
+        circle_marker_9533da48578d2f22eeb6c4bac0f68901.bindPopup(popup_b8d62aafb431b43dc19cb73a7d1735bf)
+        ;
+
+        
+    
+    
+            var circle_marker_6ae0a220797761cd5edaeb1991742a90 = L.circleMarker(
+                [44.948889, -93.093611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_9699f59f26d91bbe255c8302a5c444de = L.popup({"maxWidth": 300});
+
+        
+            var html_0c7075fb59a4d33f112a32bdbc6f13b3 = $(`<div id="html_0c7075fb59a4d33f112a32bdbc6f13b3" style="width: 100.0%; height: 100.0%;"><b>Crossroads Montessori & Science</b><br>543 Front Ave, Saint Paul, MN 55103<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_9699f59f26d91bbe255c8302a5c444de.setContent(html_0c7075fb59a4d33f112a32bdbc6f13b3);
+        
+
+        circle_marker_6ae0a220797761cd5edaeb1991742a90.bindPopup(popup_9699f59f26d91bbe255c8302a5c444de)
+        ;
+
+        
+    
+    
+            var circle_marker_33b2b26b573aa96c2c3030a666c0b547 = L.circleMarker(
+                [44.948056, -93.058333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_0eba0fa24a3d46f3fa0e4360c434bff3 = L.popup({"maxWidth": 300});
+
+        
+            var html_9d7f19bedae60a00b096a3067250b09f = $(`<div id="html_9d7f19bedae60a00b096a3067250b09f" style="width: 100.0%; height: 100.0%;"><b>Dayton's Bluff Achievement Plus</b><br>262 Bates Ave, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_0eba0fa24a3d46f3fa0e4360c434bff3.setContent(html_9d7f19bedae60a00b096a3067250b09f);
+        
+
+        circle_marker_33b2b26b573aa96c2c3030a666c0b547.bindPopup(popup_0eba0fa24a3d46f3fa0e4360c434bff3)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa69825724ec220f7f7756011a8a78a = L.circleMarker(
+                [44.945556, -93.103889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_fb9baf2f8db46f63fd505ae2af53d5b2 = L.popup({"maxWidth": 300});
+
+        
+            var html_91a6b26ceed0fe6b0e47d5af987640ad = $(`<div id="html_91a6b26ceed0fe6b0e47d5af987640ad" style="width: 100.0%; height: 100.0%;"><b>East African Magnet Elementary</b><br>437 Edmund Ave W, Saint Paul, MN 55103<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_fb9baf2f8db46f63fd505ae2af53d5b2.setContent(html_91a6b26ceed0fe6b0e47d5af987640ad);
+        
+
+        circle_marker_4fa69825724ec220f7f7756011a8a78a.bindPopup(popup_fb9baf2f8db46f63fd505ae2af53d5b2)
+        ;
+
+        
+    
+    
+            var circle_marker_7be43f0e5a50f981f5513dd7952f3deb = L.circleMarker(
+                [44.898889, -93.025],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_84f5807f711486c17a62773b9c5c8672 = L.popup({"maxWidth": 300});
+
+        
+            var html_d20c31a4520fa042d7da0cdb9bb79e8c = $(`<div id="html_d20c31a4520fa042d7da0cdb9bb79e8c" style="width: 100.0%; height: 100.0%;"><b>Eastern Heights Elementary</b><br>2001 Margaret St, Saint Paul, MN 55119<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_84f5807f711486c17a62773b9c5c8672.setContent(html_d20c31a4520fa042d7da0cdb9bb79e8c);
+        
+
+        circle_marker_7be43f0e5a50f981f5513dd7952f3deb.bindPopup(popup_84f5807f711486c17a62773b9c5c8672)
+        ;
+
+        
+    
+    
+            var circle_marker_e0959d8ef849d504d8211e5274ebd57d = L.circleMarker(
+                [44.930556, -93.213889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_608287b621086313c4392e216df8c082 = L.popup({"maxWidth": 300});
+
+        
+            var html_f0ded47bb71c4aa66b3ea3fb732a0234 = $(`<div id="html_f0ded47bb71c4aa66b3ea3fb732a0234" style="width: 100.0%; height: 100.0%;"><b>EXPO Elementary</b><br>540 Warwick St S, Saint Paul, MN 55116<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_608287b621086313c4392e216df8c082.setContent(html_f0ded47bb71c4aa66b3ea3fb732a0234);
+        
+
+        circle_marker_e0959d8ef849d504d8211e5274ebd57d.bindPopup(popup_608287b621086313c4392e216df8c082)
+        ;
+
+        
+    
+    
+            var circle_marker_8bceca284a53e6c0f1e56f5a3049fe52 = L.circleMarker(
+                [44.971111, -93.058889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_82c5db29e193a318ed89cf0cbcfd2503 = L.popup({"maxWidth": 300});
+
+        
+            var html_64e2001e8950ef19baf842e8748d201a = $(`<div id="html_64e2001e8950ef19baf842e8748d201a" style="width: 100.0%; height: 100.0%;"><b>Farnsworth Aerospace - Lower</b><br>1290 Arcade St, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_82c5db29e193a318ed89cf0cbcfd2503.setContent(html_64e2001e8950ef19baf842e8748d201a);
+        
+
+        circle_marker_8bceca284a53e6c0f1e56f5a3049fe52.bindPopup(popup_82c5db29e193a318ed89cf0cbcfd2503)
+        ;
+
+        
+    
+    
+            var circle_marker_237cb74840ae3018a0fa262ab5beeb64 = L.circleMarker(
+                [44.936111, -92.995556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_ffc7e3d53af8f29bbb48260937b9c403 = L.popup({"maxWidth": 300});
+
+        
+            var html_54e37b20fd518605d34f88c6d546a011 = $(`<div id="html_54e37b20fd518605d34f88c6d546a011" style="width: 100.0%; height: 100.0%;"><b>Four Seasons Arts+ Elementary</b><br>318 Moore St, Saint Paul, MN 55130<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_ffc7e3d53af8f29bbb48260937b9c403.setContent(html_54e37b20fd518605d34f88c6d546a011);
+        
+
+        circle_marker_237cb74840ae3018a0fa262ab5beeb64.bindPopup(popup_ffc7e3d53af8f29bbb48260937b9c403)
+        ;
+
+        
+    
+    
+            var circle_marker_ba520d94972c06d50b3f9303978014c0 = L.circleMarker(
+                [44.95, -93.06],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_f57833a2cbf9ee8ab044d22dad6727d4 = L.popup({"maxWidth": 300});
+
+        
+            var html_7118628162f79012de6d3dc707e5f067 = $(`<div id="html_7118628162f79012de6d3dc707e5f067" style="width: 100.0%; height: 100.0%;"><b>Frost Lake Elementary</b><br>1505 Hoyt Ave E, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_f57833a2cbf9ee8ab044d22dad6727d4.setContent(html_7118628162f79012de6d3dc707e5f067);
+        
+
+        circle_marker_ba520d94972c06d50b3f9303978014c0.bindPopup(popup_f57833a2cbf9ee8ab044d22dad6727d4)
+        ;
+
+        
+    
+    
+            var circle_marker_d3febab4949bab9a9d60e2267f32df59 = L.circleMarker(
+                [44.93, -93.17],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a26ba1c2db8cf9c045516542d0a54dcc = L.popup({"maxWidth": 300});
+
+        
+            var html_401b1dfc7e1e8b7a262b5f874e670cfc = $(`<div id="html_401b1dfc7e1e8b7a262b5f874e670cfc" style="width: 100.0%; height: 100.0%;"><b>Global Arts Plus Lower</b><br>1023 Osceola Ave, Saint Paul, MN 55105<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_a26ba1c2db8cf9c045516542d0a54dcc.setContent(html_401b1dfc7e1e8b7a262b5f874e670cfc);
+        
+
+        circle_marker_d3febab4949bab9a9d60e2267f32df59.bindPopup(popup_a26ba1c2db8cf9c045516542d0a54dcc)
+        ;
+
+        
+    
+    
+            var circle_marker_e2364b0ab0656ac83ced02e05ab13721 = L.circleMarker(
+                [44.95, -93.12],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_31664540d80860356d77fe9a03f04bfb = L.popup({"maxWidth": 300});
+
+        
+            var html_194b3d7cd3b59deb2b49b22865349962 = $(`<div id="html_194b3d7cd3b59deb2b49b22865349962" style="width: 100.0%; height: 100.0%;"><b>Global Arts Plus Upper</b><br>810 Palace Ave, Saint Paul, MN 55102<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_31664540d80860356d77fe9a03f04bfb.setContent(html_194b3d7cd3b59deb2b49b22865349962);
+        
+
+        circle_marker_e2364b0ab0656ac83ced02e05ab13721.bindPopup(popup_31664540d80860356d77fe9a03f04bfb)
+        ;
+
+        
+    
+    
+            var circle_marker_b6d1e5e9a2005531a81252d984f19170 = L.circleMarker(
+                [44.93, -93.18],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8094316322a6b0ae0f1888735821912a = L.popup({"maxWidth": 300});
+
+        
+            var html_623e57c7094c7f6c84b906a82b600104 = $(`<div id="html_623e57c7094c7f6c84b906a82b600104" style="width: 100.0%; height: 100.0%;"><b>Groveland Park Elementary</b><br>2045 St Clair Ave, Saint Paul, MN 55105<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_8094316322a6b0ae0f1888735821912a.setContent(html_623e57c7094c7f6c84b906a82b600104);
+        
+
+        circle_marker_b6d1e5e9a2005531a81252d984f19170.bindPopup(popup_8094316322a6b0ae0f1888735821912a)
+        ;
+
+        
+    
+    
+            var circle_marker_8635107302394c62188ef675d6f04fe6 = L.circleMarker(
+                [44.96, -93.14],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_134c710f6a1c0bd754f01a205fde152a = L.popup({"maxWidth": 300});
+
+        
+            var html_da663b2a1ca53651a67e5bb92fc93337 = $(`<div id="html_da663b2a1ca53651a67e5bb92fc93337" style="width: 100.0%; height: 100.0%;"><b>Hamline Elementary</b><br>1599 Englewood Ave, Saint Paul, MN 55104<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_134c710f6a1c0bd754f01a205fde152a.setContent(html_da663b2a1ca53651a67e5bb92fc93337);
+        
+
+        circle_marker_8635107302394c62188ef675d6f04fe6.bindPopup(popup_134c710f6a1c0bd754f01a205fde152a)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb9c5cc444f58a96a11f7d465a27f26 = L.circleMarker(
+                [44.95, -93.05],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5778772a7f32b6df79ed2b576846fa86 = L.popup({"maxWidth": 300});
+
+        
+            var html_6cf5f9233df8ebeeaea008549c4c0712 = $(`<div id="html_6cf5f9233df8ebeeaea008549c4c0712" style="width: 100.0%; height: 100.0%;"><b>Hazel Park Preparatory Academy</b><br>1140 White Bear Ave, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_5778772a7f32b6df79ed2b576846fa86.setContent(html_6cf5f9233df8ebeeaea008549c4c0712);
+        
+
+        circle_marker_2fb9c5cc444f58a96a11f7d465a27f26.bindPopup(popup_5778772a7f32b6df79ed2b576846fa86)
+        ;
+
+        
+    
+    
+            var circle_marker_1b875ecbb8d98cf49cd7a605602fd3e9 = L.circleMarker(
+                [44.9, -93.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a3d9551cad50f427cc9208dc5ce73c81 = L.popup({"maxWidth": 300});
+
+        
+            var html_b083d6655fc76c28a0ea294a4105e076 = $(`<div id="html_b083d6655fc76c28a0ea294a4105e076" style="width: 100.0%; height: 100.0%;"><b>Highland Park Elementary</b><br>1700 Saunders Ave, Saint Paul, MN 55116<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_a3d9551cad50f427cc9208dc5ce73c81.setContent(html_b083d6655fc76c28a0ea294a4105e076);
+        
+
+        circle_marker_1b875ecbb8d98cf49cd7a605602fd3e9.bindPopup(popup_a3d9551cad50f427cc9208dc5ce73c81)
+        ;
+
+        
+    
+    
+            var circle_marker_554651fee82116fd508e9ab8f8a5ad5f = L.circleMarker(
+                [44.88, -93.03],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8ee477a99ee7b7b3c5ab626ac9d2cced = L.popup({"maxWidth": 300});
+
+        
+            var html_d54db876950714e2367b971029707f9e = $(`<div id="html_d54db876950714e2367b971029707f9e" style="width: 100.0%; height: 100.0%;"><b>Highwood Hills Elementary</b><br>2188 Londin Ln, Saint Paul, MN 55119<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_8ee477a99ee7b7b3c5ab626ac9d2cced.setContent(html_d54db876950714e2367b971029707f9e);
+        
+
+        circle_marker_554651fee82116fd508e9ab8f8a5ad5f.bindPopup(popup_8ee477a99ee7b7b3c5ab626ac9d2cced)
+        ;
+
+        
+    
+    
+            var circle_marker_1d529f0e6eedb2a2845ad9c359052b2c = L.circleMarker(
+                [44.9, -93.21],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_bf5f09762df35e3a1f7a5620a3926fa5 = L.popup({"maxWidth": 300});
+
+        
+            var html_798582e59886bc2398049baaa0f152d5 = $(`<div id="html_798582e59886bc2398049baaa0f152d5" style="width: 100.0%; height: 100.0%;"><b>Horace Mann School</b><br>2001 Eleanor Ave, Saint Paul, MN 55116<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_bf5f09762df35e3a1f7a5620a3926fa5.setContent(html_798582e59886bc2398049baaa0f152d5);
+        
+
+        circle_marker_1d529f0e6eedb2a2845ad9c359052b2c.bindPopup(popup_bf5f09762df35e3a1f7a5620a3926fa5)
+        ;
+
+        
+    
+    
+            var circle_marker_689737e139c41f432a34704e48071c60 = L.circleMarker(
+                [44.9, -93.22],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e625bb9d4137485256f77e8e3d897357 = L.popup({"maxWidth": 300});
+
+        
+            var html_f307c75edd77e077c8c617a6b598d100 = $(`<div id="html_f307c75edd77e077c8c617a6b598d100" style="width: 100.0%; height: 100.0%;"><b>Jie Ming Mandarin Immersion</b><br>1845 Sheridan Ave W, Saint Paul, MN 55116<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_e625bb9d4137485256f77e8e3d897357.setContent(html_f307c75edd77e077c8c617a6b598d100);
+        
+
+        circle_marker_689737e139c41f432a34704e48071c60.bindPopup(popup_e625bb9d4137485256f77e8e3d897357)
+        ;
+
+        
+    
+    
+            var circle_marker_3c3e8d785e099122281e56baa678edb3 = L.circleMarker(
+                [44.930556, -93.063889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_9c47f43a9c73462e07602f931d1f0793 = L.popup({"maxWidth": 300});
+
+        
+            var html_f4bc9d9383cf90e9f030b6c0ae5b477f = $(`<div id="html_f4bc9d9383cf90e9f030b6c0ae5b477f" style="width: 100.0%; height: 100.0%;"><b>L'Etoile du Nord French Immersion</b><br>1760 Ames Pl, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_9c47f43a9c73462e07602f931d1f0793.setContent(html_f4bc9d9383cf90e9f030b6c0ae5b477f);
+        
+
+        circle_marker_3c3e8d785e099122281e56baa678edb3.bindPopup(popup_9c47f43a9c73462e07602f931d1f0793)
+        ;
+
+        
+    
+    
+            var circle_marker_b56827f7d03f4f440d55c43e3ce12c57 = L.circleMarker(
+                [44.956667, -93.146389],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_d79ac285d00ed776073ea69aa23273a2 = L.popup({"maxWidth": 300});
+
+        
+            var html_f2aa0e86eae075d49bd77c10093599c2 = $(`<div id="html_f2aa0e86eae075d49bd77c10093599c2" style="width: 100.0%; height: 100.0%;"><b>Maxfield Elementary</b><br>380 Victoria St N, Saint Paul, MN 55104<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_d79ac285d00ed776073ea69aa23273a2.setContent(html_f2aa0e86eae075d49bd77c10093599c2);
+        
+
+        circle_marker_b56827f7d03f4f440d55c43e3ce12c57.bindPopup(popup_d79ac285d00ed776073ea69aa23273a2)
+        ;
+
+        
+    
+    
+            var circle_marker_fa37649a1dcbbb22a2ae3ee33083ade0 = L.circleMarker(
+                [44.999722, -93.056111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_0a7694cf0181a9c540bcdfb3bb79ce8c = L.popup({"maxWidth": 300});
+
+        
+            var html_64e0bd0492ec6d5074a45bcba5384e5a = $(`<div id="html_64e0bd0492ec6d5074a45bcba5384e5a" style="width: 100.0%; height: 100.0%;"><b>Mississippi Creative Arts</b><br>1575 L'Orient St, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_0a7694cf0181a9c540bcdfb3bb79ce8c.setContent(html_64e0bd0492ec6d5074a45bcba5384e5a);
+        
+
+        circle_marker_fa37649a1dcbbb22a2ae3ee33083ade0.bindPopup(popup_0a7694cf0181a9c540bcdfb3bb79ce8c)
+        ;
+
+        
+    
+    
+            var circle_marker_2d799c0458820a3b3a49165b53a2b058 = L.circleMarker(
+                [44.89, -93.037222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_4e7cfc430b1f7766071debdd85c8751e = L.popup({"maxWidth": 300});
+
+        
+            var html_187c102a428953be06190d761021e379 = $(`<div id="html_187c102a428953be06190d761021e379" style="width: 100.0%; height: 100.0%;"><b>Nokomis Montessori - North</b><br>985 Ruth St, Saint Paul, MN 55119<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_4e7cfc430b1f7766071debdd85c8751e.setContent(html_187c102a428953be06190d761021e379);
+        
+
+        circle_marker_2d799c0458820a3b3a49165b53a2b058.bindPopup(popup_4e7cfc430b1f7766071debdd85c8751e)
+        ;
+
+        
+    
+    
+            var circle_marker_b0241f4d84a539aca2c3b96b54b24929 = L.circleMarker(
+                [44.934444, -93.063333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_60d5cb228a28285d9d1c2d086e814d97 = L.popup({"maxWidth": 300});
+
+        
+            var html_17cc9a21361253b1b05d1d0e6facb729 = $(`<div id="html_17cc9a21361253b1b05d1d0e6facb729" style="width: 100.0%; height: 100.0%;"><b>Nokomis Montessori - South</b><br>525 White Bear Ave, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_60d5cb228a28285d9d1c2d086e814d97.setContent(html_17cc9a21361253b1b05d1d0e6facb729);
+        
+
+        circle_marker_b0241f4d84a539aca2c3b96b54b24929.bindPopup(popup_60d5cb228a28285d9d1c2d086e814d97)
+        ;
+
+        
+    
+    
+            var circle_marker_1b6697d4cada714600396f9070a9fd60 = L.circleMarker(
+                [44.935, -93.156944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5e9e0c3aef72cdf90475b6850e63c64c = L.popup({"maxWidth": 300});
+
+        
+            var html_8ffb013ce045058e33f93cf3d9a56630 = $(`<div id="html_8ffb013ce045058e33f93cf3d9a56630" style="width: 100.0%; height: 100.0%;"><b>Randolph Heights Elementary</b><br>348 Hamline Ave S, Saint Paul, MN 55105<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_5e9e0c3aef72cdf90475b6850e63c64c.setContent(html_8ffb013ce045058e33f93cf3d9a56630);
+        
+
+        circle_marker_1b6697d4cada714600396f9070a9fd60.bindPopup(popup_5e9e0c3aef72cdf90475b6850e63c64c)
+        ;
+
+        
+    
+    
+            var circle_marker_018174ac933dc1b7e868ba2a8bbf61eb = L.circleMarker(
+                [44.917778, -93.079444],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_758db06987d49deaab1d164c945c0b54 = L.popup({"maxWidth": 300});
+
+        
+            var html_8b8989f3ba7aff5a0e781491110accda = $(`<div id="html_8b8989f3ba7aff5a0e781491110accda" style="width: 100.0%; height: 100.0%;"><b>Riverview West Side School of Excellence</b><br>160 Isabel St E, Saint Paul, MN 55107<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_758db06987d49deaab1d164c945c0b54.setContent(html_8b8989f3ba7aff5a0e781491110accda);
+        
+
+        circle_marker_018174ac933dc1b7e868ba2a8bbf61eb.bindPopup(popup_758db06987d49deaab1d164c945c0b54)
+        ;
+
+        
+    
+    
+            var circle_marker_9a0b2a1fc7cbef7b6bf318c52295df1f = L.circleMarker(
+                [44.998333, -93.055556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_3291cc6125595df409125590ac39ae88 = L.popup({"maxWidth": 300});
+
+        
+            var html_85f8d0ef50dccaf218644fe3d505b4cb = $(`<div id="html_85f8d0ef50dccaf218644fe3d505b4cb" style="width: 100.0%; height: 100.0%;"><b>Saint Paul Music Academy</b><br>27 Geranium Ave E, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_3291cc6125595df409125590ac39ae88.setContent(html_85f8d0ef50dccaf218644fe3d505b4cb);
+        
+
+        circle_marker_9a0b2a1fc7cbef7b6bf318c52295df1f.bindPopup(popup_3291cc6125595df409125590ac39ae88)
+        ;
+
+        
+    
+    
+            var circle_marker_70fc29d57339f6e5405c3014a55b6e20 = L.circleMarker(
+                [44.984167, -93.168056],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5e718f4f5c9bab2f98680286358987c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_0ac28f67a6d1287823377996334fbf10 = $(`<div id="html_0ac28f67a6d1287823377996334fbf10" style="width: 100.0%; height: 100.0%;"><b>St. Anthony Park Elementary</b><br>2180 Knapp St, Saint Paul, MN 55108<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_5e718f4f5c9bab2f98680286358987c5.setContent(html_0ac28f67a6d1287823377996334fbf10);
+        
+
+        circle_marker_70fc29d57339f6e5405c3014a55b6e20.bindPopup(popup_5e718f4f5c9bab2f98680286358987c5)
+        ;
+
+        
+    
+    
+            var circle_marker_be2816c71301ab11d0e31d58b341402d = L.circleMarker(
+                [44.890833, -93.036111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_1db7e0c4ca28a47289c8e48b81922edb = L.popup({"maxWidth": 300});
+
+        
+            var html_7865a010c40e910c13a03df0b6fcc1d7 = $(`<div id="html_7865a010c40e910c13a03df0b6fcc1d7" style="width: 100.0%; height: 100.0%;"><b>The Heights Community School</b><br>1863 Clear Ave E, Saint Paul, MN 55119<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_1db7e0c4ca28a47289c8e48b81922edb.setContent(html_7865a010c40e910c13a03df0b6fcc1d7);
+        
+
+        circle_marker_be2816c71301ab11d0e31d58b341402d.bindPopup(popup_1db7e0c4ca28a47289c8e48b81922edb)
+        ;
+
+        
+    
+    
+            var circle_marker_0ac7757af84fbd8836612cd17be5b56f = L.circleMarker(
+                [44.975556, -93.071667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_2183b32d2b5106baf8be692421f51901 = L.popup({"maxWidth": 300});
+
+        
+            var html_86cb085390e83584cef8c470e2052ff8 = $(`<div id="html_86cb085390e83584cef8c470e2052ff8" style="width: 100.0%; height: 100.0%;"><b>Wellstone Elementary</b><br>1041 Marion St, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_2183b32d2b5106baf8be692421f51901.setContent(html_86cb085390e83584cef8c470e2052ff8);
+        
+
+        circle_marker_0ac7757af84fbd8836612cd17be5b56f.bindPopup(popup_2183b32d2b5106baf8be692421f51901)
+        ;
+
+        
+    
+    
+            var circle_marker_12db1df1427a29ea0b7c98a121856af1 = L.circleMarker(
+                [44.940278, -93.065],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a238187700d3c559516dc0eca0f9c5e8 = L.popup({"maxWidth": 300});
+
+        
+            var html_8baf0ea15968776df529d74b9b2991b7 = $(`<div id="html_8baf0ea15968776df529d74b9b2991b7" style="width: 100.0%; height: 100.0%;"><b>Harding Senior High School</b><br>1540 6th St E, Saint Paul, MN 55106<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_a238187700d3c559516dc0eca0f9c5e8.setContent(html_8baf0ea15968776df529d74b9b2991b7);
+        
+
+        circle_marker_12db1df1427a29ea0b7c98a121856af1.bindPopup(popup_a238187700d3c559516dc0eca0f9c5e8)
+        ;
+
+        
+    
+    
+            var circle_marker_dde0e80f15427b4e0edcc419be2a4fdf = L.circleMarker(
+                [44.979444, -93.066944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8e031a1e1af6fff27f42b590ff666a73 = L.popup({"maxWidth": 300});
+
+        
+            var html_1ff74d5980aa2458d87bd08826caf95e = $(`<div id="html_1ff74d5980aa2458d87bd08826caf95e" style="width: 100.0%; height: 100.0%;"><b>Washington Technology Magnet</b><br>1495 Rice St, Saint Paul, MN 55117<br>School<br>Readiness: 8 (High)</div>`)[0];
+            popup_8e031a1e1af6fff27f42b590ff666a73.setContent(html_1ff74d5980aa2458d87bd08826caf95e);
+        
+
+        circle_marker_dde0e80f15427b4e0edcc419be2a4fdf.bindPopup(popup_8e031a1e1af6fff27f42b590ff666a73)
+        ;
+
+        
+    
+    
+            var circle_marker_8982a23ae4331cad63a184f9098bb5ba = L.circleMarker(
+                [45.084722, -92.987222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_f857f740501f5f615f7f99f159b806f3 = L.popup({"maxWidth": 300});
+
+        
+            var html_8d772dc5072aea98ae181ec7f03e8381 = $(`<div id="html_8d772dc5072aea98ae181ec7f03e8381" style="width: 100.0%; height: 100.0%;"><b>Birch Lake Elementary</b><br>1616 Birch Lake Ave, White Bear Lake, MN 55110<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_f857f740501f5f615f7f99f159b806f3.setContent(html_8d772dc5072aea98ae181ec7f03e8381);
+        
+
+        circle_marker_8982a23ae4331cad63a184f9098bb5ba.bindPopup(popup_f857f740501f5f615f7f99f159b806f3)
+        ;
+
+        
+    
+    
+            var circle_marker_d1ec746d69800ceb2231c11b8aa63e8b = L.circleMarker(
+                [45.064167, -92.995833],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_31b69beabb54cfdf30011c6d81641b95 = L.popup({"maxWidth": 300});
+
+        
+            var html_648144f28c358b65caa2b37b4e2d4147 = $(`<div id="html_648144f28c358b65caa2b37b4e2d4147" style="width: 100.0%; height: 100.0%;"><b>Otter Lake Elementary</b><br>1401 County Rd H2, White Bear Lake, MN 55110<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_31b69beabb54cfdf30011c6d81641b95.setContent(html_648144f28c358b65caa2b37b4e2d4147);
+        
+
+        circle_marker_d1ec746d69800ceb2231c11b8aa63e8b.bindPopup(popup_31b69beabb54cfdf30011c6d81641b95)
+        ;
+
+        
+    
+    
+            var circle_marker_2001b3baa43a20554f18af389c8683c4 = L.circleMarker(
+                [45.056944, -93.081944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_fbf6d326cafc14ac1a3518dbb2a1349b = L.popup({"maxWidth": 300});
+
+        
+            var html_56c751840b4280d443aaa7ae240eb6ea = $(`<div id="html_56c751840b4280d443aaa7ae240eb6ea" style="width: 100.0%; height: 100.0%;"><b>Vadnais Heights Elementary</b><br>3645 Centerville Rd, Vadnais Heights, MN 55127<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_fbf6d326cafc14ac1a3518dbb2a1349b.setContent(html_56c751840b4280d443aaa7ae240eb6ea);
+        
+
+        circle_marker_2001b3baa43a20554f18af389c8683c4.bindPopup(popup_fbf6d326cafc14ac1a3518dbb2a1349b)
+        ;
+
+        
+    
+    
+            var circle_marker_8529326c79bcf3952fcab2786b907d24 = L.circleMarker(
+                [45.072778, -92.990556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_c006e22b577da55cbe4c803349dce8c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_8fc9b677d4eca5f6a90d4f7affb395b9 = $(`<div id="html_8fc9b677d4eca5f6a90d4f7affb395b9" style="width: 100.0%; height: 100.0%;"><b>Central Middle School</b><br>4857 Bloom Ave, White Bear Lake, MN 55110<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_c006e22b577da55cbe4c803349dce8c6.setContent(html_8fc9b677d4eca5f6a90d4f7affb395b9);
+        
+
+        circle_marker_8529326c79bcf3952fcab2786b907d24.bindPopup(popup_c006e22b577da55cbe4c803349dce8c6)
+        ;
+
+        
+    
+    
+            var circle_marker_5f77844345a2c1bd419c8727c0749349 = L.circleMarker(
+                [45.039167, -93.0125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_d86b369e0a4d1f166ffcb551c0c99377 = L.popup({"maxWidth": 300});
+
+        
+            var html_208f3080015d6d00cf3c5af31597902e = $(`<div id="html_208f3080015d6d00cf3c5af31597902e" style="width: 100.0%; height: 100.0%;"><b>Mariner Middle School</b><br>3551 McKnight Rd, White Bear Lake, MN 55110<br>School<br>Readiness: 9 (High)</div>`)[0];
+            popup_d86b369e0a4d1f166ffcb551c0c99377.setContent(html_208f3080015d6d00cf3c5af31597902e);
+        
+
+        circle_marker_5f77844345a2c1bd419c8727c0749349.bindPopup(popup_d86b369e0a4d1f166ffcb551c0c99377)
+        ;
+
+        
+    
+    
+            var circle_marker_dc2715bd44e7eccd5182c3398f826843 = L.circleMarker(
+                [45.095, -93.154444],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_8d7e50d17d16d5f5ab49bcccbdb128d3 = L.popup({"maxWidth": 300});
+
+        
+            var html_53667f7f89e0314e546b3a5d91ebc9b3 = $(`<div id="html_53667f7f89e0314e546b3a5d91ebc9b3" style="width: 100.0%; height: 100.0%;"><b>Shoreview Community Center</b><br>4580 Victoria St N, Shoreview, MN 55126<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_8d7e50d17d16d5f5ab49bcccbdb128d3.setContent(html_53667f7f89e0314e546b3a5d91ebc9b3);
+        
+
+        circle_marker_dc2715bd44e7eccd5182c3398f826843.bindPopup(popup_8d7e50d17d16d5f5ab49bcccbdb128d3)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1dd37d32896b1c861091fd13373deb = L.circleMarker(
+                [44.946111, -93.073611],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_ca6e6c57c9e569f2e094b243409f7887 = L.popup({"maxWidth": 300});
+
+        
+            var html_c6eba3ff82c362d9215cc718360265b4 = $(`<div id="html_c6eba3ff82c362d9215cc718360265b4" style="width: 100.0%; height: 100.0%;"><b>Arlington Hills Community Center</b><br>1200 Payne Ave, Saint Paul, MN 55130<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_ca6e6c57c9e569f2e094b243409f7887.setContent(html_c6eba3ff82c362d9215cc718360265b4);
+        
+
+        circle_marker_7b1dd37d32896b1c861091fd13373deb.bindPopup(popup_ca6e6c57c9e569f2e094b243409f7887)
+        ;
+
+        
+    
+    
+            var circle_marker_62187f1bcef36d3dcfe06e7564f0167f = L.circleMarker(
+                [44.980587, -93.147031],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_d017664c368ed48e49d53269dac32cde = L.popup({"maxWidth": 300});
+
+        
+            var html_3a05565563341b7d21f27b3df0d55625 = $(`<div id="html_3a05565563341b7d21f27b3df0d55625" style="width: 100.0%; height: 100.0%;"><b>Frogtown Community Center</b><br>230 Como Ave, Saint Paul, MN 55103<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_d017664c368ed48e49d53269dac32cde.setContent(html_3a05565563341b7d21f27b3df0d55625);
+        
+
+        circle_marker_62187f1bcef36d3dcfe06e7564f0167f.bindPopup(popup_d017664c368ed48e49d53269dac32cde)
+        ;
+
+        
+    
+    
+            var circle_marker_b87797f6a279ad56ecc50990dfa5af46 = L.circleMarker(
+                [44.918542, -93.179298],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_dfef61d121b52044bbc70c8776fc4848 = L.popup({"maxWidth": 300});
+
+        
+            var html_9069022220a415f1085527f186f4028c = $(`<div id="html_9069022220a415f1085527f186f4028c" style="width: 100.0%; height: 100.0%;"><b>Highland Park Community Center</b><br>1978 Ford Pkwy, Saint Paul, MN 55116<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_dfef61d121b52044bbc70c8776fc4848.setContent(html_9069022220a415f1085527f186f4028c);
+        
+
+        circle_marker_b87797f6a279ad56ecc50990dfa5af46.bindPopup(popup_dfef61d121b52044bbc70c8776fc4848)
+        ;
+
+        
+    
+    
+            var circle_marker_806b18eb0e5647ef8e408774a28dfcfc = L.circleMarker(
+                [44.949821, -93.123456],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e531f0b4cad38d3784c4254c1a43b1d7 = L.popup({"maxWidth": 300});
+
+        
+            var html_042d1eab03e063e3f04429240d63d3e0 = $(`<div id="html_042d1eab03e063e3f04429240d63d3e0" style="width: 100.0%; height: 100.0%;"><b>Martin Luther King Recreation Center</b><br>271 Mackubin St, Saint Paul, MN 55102<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_e531f0b4cad38d3784c4254c1a43b1d7.setContent(html_042d1eab03e063e3f04429240d63d3e0);
+        
+
+        circle_marker_806b18eb0e5647ef8e408774a28dfcfc.bindPopup(popup_e531f0b4cad38d3784c4254c1a43b1d7)
+        ;
+
+        
+    
+    
+            var circle_marker_480600f667739831d4d2448c9c135fc6 = L.circleMarker(
+                [44.956789, -93.156432],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_2bfd4e5bd786ca85c38c4f85efb5b1e7 = L.popup({"maxWidth": 300});
+
+        
+            var html_cff3bd0aa4cca6dd585db7b6b52ecda7 = $(`<div id="html_cff3bd0aa4cca6dd585db7b6b52ecda7" style="width: 100.0%; height: 100.0%;"><b>Oxford/Jimmy Lee Recreation Center</b><br>270 Lexington Pkwy N, Saint Paul, MN 55104<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_2bfd4e5bd786ca85c38c4f85efb5b1e7.setContent(html_cff3bd0aa4cca6dd585db7b6b52ecda7);
+        
+
+        circle_marker_480600f667739831d4d2448c9c135fc6.bindPopup(popup_2bfd4e5bd786ca85c38c4f85efb5b1e7)
+        ;
+
+        
+    
+    
+            var circle_marker_ef52fea028c2e7f48d846df6a2916d0b = L.circleMarker(
+                [44.984567, -93.16789],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5d0df8d2efc3a4cebf748ae19e1a7531 = L.popup({"maxWidth": 300});
+
+        
+            var html_4b6f01b817599d504f2a689b5ff289a6 = $(`<div id="html_4b6f01b817599d504f2a689b5ff289a6" style="width: 100.0%; height: 100.0%;"><b>Northwest Como Recreation Center</b><br>1550 Hamline Ave N, Saint Paul, MN 55108<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_5d0df8d2efc3a4cebf748ae19e1a7531.setContent(html_4b6f01b817599d504f2a689b5ff289a6);
+        
+
+        circle_marker_ef52fea028c2e7f48d846df6a2916d0b.bindPopup(popup_5d0df8d2efc3a4cebf748ae19e1a7531)
+        ;
+
+        
+    
+    
+            var circle_marker_4195036896735d3e9c0811be0d5e7894 = L.circleMarker(
+                [44.981234, -93.165432],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_ee0ce66aea9e64d8f76a369a5e0edb34 = L.popup({"maxWidth": 300});
+
+        
+            var html_39f118df69e831cd89908ff8c79f97e2 = $(`<div id="html_39f118df69e831cd89908ff8c79f97e2" style="width: 100.0%; height: 100.0%;"><b>Langford Park Recreation Center</b><br>30 Langford Park, Saint Paul, MN 55108<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_ee0ce66aea9e64d8f76a369a5e0edb34.setContent(html_39f118df69e831cd89908ff8c79f97e2);
+        
+
+        circle_marker_4195036896735d3e9c0811be0d5e7894.bindPopup(popup_ee0ce66aea9e64d8f76a369a5e0edb34)
+        ;
+
+        
+    
+    
+            var circle_marker_d510a052b9157241ccf3a5ea436e9fe6 = L.circleMarker(
+                [44.912345, -93.034567],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_7f869e2b402e65f636fbe1080681d494 = L.popup({"maxWidth": 300});
+
+        
+            var html_1f2c4daef1d7ac2310969ae5a56c7f0b = $(`<div id="html_1f2c4daef1d7ac2310969ae5a56c7f0b" style="width: 100.0%; height: 100.0%;"><b>Hayden Heights Recreation Center</b><br>1966 Hoyt Ave E, Saint Paul, MN 55119<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_7f869e2b402e65f636fbe1080681d494.setContent(html_1f2c4daef1d7ac2310969ae5a56c7f0b);
+        
+
+        circle_marker_d510a052b9157241ccf3a5ea436e9fe6.bindPopup(popup_7f869e2b402e65f636fbe1080681d494)
+        ;
+
+        
+    
+    
+            var circle_marker_2e965a3f2546058953b3dcf3de7c5af0 = L.circleMarker(
+                [44.96789, -93.045678],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e2451adfb76ce477ad224d36656ebfb3 = L.popup({"maxWidth": 300});
+
+        
+            var html_c3e5dafd8aed4f3afdfa228faf33cb02 = $(`<div id="html_c3e5dafd8aed4f3afdfa228faf33cb02" style="width: 100.0%; height: 100.0%;"><b>Hazel Park Recreation Center</b><br>945 Hazel St N, Saint Paul, MN 55119<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_e2451adfb76ce477ad224d36656ebfb3.setContent(html_c3e5dafd8aed4f3afdfa228faf33cb02);
+        
+
+        circle_marker_2e965a3f2546058953b3dcf3de7c5af0.bindPopup(popup_e2451adfb76ce477ad224d36656ebfb3)
+        ;
+
+        
+    
+    
+            var circle_marker_151af468c234fe827c84d1071d46852a = L.circleMarker(
+                [44.923456, -93.189012],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_5ff84d30e9e884dd10e8d07cc834f791 = L.popup({"maxWidth": 300});
+
+        
+            var html_91262c936e1b2a514eb701e018a3798f = $(`<div id="html_91262c936e1b2a514eb701e018a3798f" style="width: 100.0%; height: 100.0%;"><b>Groveland Recreation Center</b><br>2021 St Clair Ave, Saint Paul, MN 55105<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_5ff84d30e9e884dd10e8d07cc834f791.setContent(html_91262c936e1b2a514eb701e018a3798f);
+        
+
+        circle_marker_151af468c234fe827c84d1071d46852a.bindPopup(popup_5ff84d30e9e884dd10e8d07cc834f791)
+        ;
+
+        
+    
+    
+            var circle_marker_8af82a341b625df6e0cebefa3d7d6314 = L.circleMarker(
+                [44.961234, -93.134567],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e9abcb84789cd4de07c95f90e9db00ea = L.popup({"maxWidth": 300});
+
+        
+            var html_deb04a4a557358c7c3f34a59afb8db88 = $(`<div id="html_deb04a4a557358c7c3f34a59afb8db88" style="width: 100.0%; height: 100.0%;"><b>Hancock Recreation Center</b><br>1610 Hubbard Ave, Saint Paul, MN 55104<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_e9abcb84789cd4de07c95f90e9db00ea.setContent(html_deb04a4a557358c7c3f34a59afb8db88);
+        
+
+        circle_marker_8af82a341b625df6e0cebefa3d7d6314.bindPopup(popup_e9abcb84789cd4de07c95f90e9db00ea)
+        ;
+
+        
+    
+    
+            var circle_marker_07d48a514985b7eaa2e30920311234d6 = L.circleMarker(
+                [44.972222, -93.166667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_026aa6b30812c752cff12990390dc89c = L.popup({"maxWidth": 300});
+
+        
+            var html_7ac840ae021c9bcd5be67a703d173df6 = $(`<div id="html_7ac840ae021c9bcd5be67a703d173df6" style="width: 100.0%; height: 100.0%;"><b>Merriam Park Recreation Center</b><br>2000 St Anthony Ave, Saint Paul, MN 55104<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_026aa6b30812c752cff12990390dc89c.setContent(html_7ac840ae021c9bcd5be67a703d173df6);
+        
+
+        circle_marker_07d48a514985b7eaa2e30920311234d6.bindPopup(popup_026aa6b30812c752cff12990390dc89c)
+        ;
+
+        
+    
+    
+            var circle_marker_7f71d259ed4587d6f91445b87a592179 = L.circleMarker(
+                [44.926944, -93.133333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_d7de29dec431e0ffab8bb43e90f2fb84 = L.popup({"maxWidth": 300});
+
+        
+            var html_69fcb404a7af19d33d790f20fe6541e3 = $(`<div id="html_69fcb404a7af19d33d790f20fe6541e3" style="width: 100.0%; height: 100.0%;"><b>Linwood Recreation Center</b><br>860 St Clair Ave, Saint Paul, MN 55105<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_d7de29dec431e0ffab8bb43e90f2fb84.setContent(html_69fcb404a7af19d33d790f20fe6541e3);
+        
+
+        circle_marker_7f71d259ed4587d6f91445b87a592179.bindPopup(popup_d7de29dec431e0ffab8bb43e90f2fb84)
+        ;
+
+        
+    
+    
+            var circle_marker_6285ce2a601545f9f7c84fff257ed959 = L.circleMarker(
+                [45.066667, -93.066667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_c5800c387f7bcfb51baf896173438503 = L.popup({"maxWidth": 300});
+
+        
+            var html_3a1f5693325103953619dfcee77cf059 = $(`<div id="html_3a1f5693325103953619dfcee77cf059" style="width: 100.0%; height: 100.0%;"><b>McDonough Recreation Center</b><br>1544 Timberlake Rd, Saint Paul, MN 55117<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_c5800c387f7bcfb51baf896173438503.setContent(html_3a1f5693325103953619dfcee77cf059);
+        
+
+        circle_marker_6285ce2a601545f9f7c84fff257ed959.bindPopup(popup_c5800c387f7bcfb51baf896173438503)
+        ;
+
+        
+    
+    
+            var circle_marker_81330cef639673dd4d553b5b5be192c8 = L.circleMarker(
+                [44.947222, -93.116667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a2e3e38a8c95d7d011b73f2485fee893 = L.popup({"maxWidth": 300});
+
+        
+            var html_7913790812de9c4841856533941e3ad6 = $(`<div id="html_7913790812de9c4841856533941e3ad6" style="width: 100.0%; height: 100.0%;"><b>Palace Community Center</b><br>781 Palace Ave, Saint Paul, MN 55102<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_a2e3e38a8c95d7d011b73f2485fee893.setContent(html_7913790812de9c4841856533941e3ad6);
+        
+
+        circle_marker_81330cef639673dd4d553b5b5be192c8.bindPopup(popup_a2e3e38a8c95d7d011b73f2485fee893)
+        ;
+
+        
+    
+    
+            var circle_marker_506bfbc49561f42644e1af75ab8bac8a = L.circleMarker(
+                [44.966667, -93.066667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_9e922fd7b9f30477fcdf9eec3276e3ee = L.popup({"maxWidth": 300});
+
+        
+            var html_228e1e13add9f1b6c1f8e9634037866f = $(`<div id="html_228e1e13add9f1b6c1f8e9634037866f" style="width: 100.0%; height: 100.0%;"><b>Phalen Recreation Center</b><br>1000 E Wheelock Pkwy, Saint Paul, MN 55106<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_9e922fd7b9f30477fcdf9eec3276e3ee.setContent(html_228e1e13add9f1b6c1f8e9634037866f);
+        
+
+        circle_marker_506bfbc49561f42644e1af75ab8bac8a.bindPopup(popup_9e922fd7b9f30477fcdf9eec3276e3ee)
+        ;
+
+        
+    
+    
+            var circle_marker_32b0640e5af5d1d6a01399b9b173e1e8 = L.circleMarker(
+                [44.952778, -93.1],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_533bf0e13e7bdccb3b2398df3f88cac1 = L.popup({"maxWidth": 300});
+
+        
+            var html_1f936eb9807896ebebd5ca6d0cb924b6 = $(`<div id="html_1f936eb9807896ebebd5ca6d0cb924b6" style="width: 100.0%; height: 100.0%;"><b>Wilder Recreation Center</b><br>958 Jessie St, Saint Paul, MN 55101<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_533bf0e13e7bdccb3b2398df3f88cac1.setContent(html_1f936eb9807896ebebd5ca6d0cb924b6);
+        
+
+        circle_marker_32b0640e5af5d1d6a01399b9b173e1e8.bindPopup(popup_533bf0e13e7bdccb3b2398df3f88cac1)
+        ;
+
+        
+    
+    
+            var circle_marker_327d1e785b254ec013bc8f6b3ec39eb1 = L.circleMarker(
+                [45.083333, -93.15],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_2cf3682def20b1a742f0b14ef345c37c = L.popup({"maxWidth": 300});
+
+        
+            var html_5dd87f7493e9ab4c3a33105c404cabe8 = $(`<div id="html_5dd87f7493e9ab4c3a33105c404cabe8" style="width: 100.0%; height: 100.0%;"><b>Shoreview Library (RCL)</b><br>4560 North Victoria St, Shoreview, MN 55126<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_2cf3682def20b1a742f0b14ef345c37c.setContent(html_5dd87f7493e9ab4c3a33105c404cabe8);
+        
+
+        circle_marker_327d1e785b254ec013bc8f6b3ec39eb1.bindPopup(popup_2cf3682def20b1a742f0b14ef345c37c)
+        ;
+
+        
+    
+    
+            var circle_marker_6d357c3de543335af1a655228dde8404 = L.circleMarker(
+                [44.983333, -92.983333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_740f605aa2ed60238342a219b13cc35e = L.popup({"maxWidth": 300});
+
+        
+            var html_c96c558d17ccf434d740696f393b5cc3 = $(`<div id="html_c96c558d17ccf434d740696f393b5cc3" style="width: 100.0%; height: 100.0%;"><b>Maplewood Library (RCL)</b><br>3025 Southlawn Dr, Maplewood, MN 55109<br>Community Center<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_740f605aa2ed60238342a219b13cc35e.setContent(html_c96c558d17ccf434d740696f393b5cc3);
+        
+
+        circle_marker_6d357c3de543335af1a655228dde8404.bindPopup(popup_740f605aa2ed60238342a219b13cc35e)
+        ;
+
+        
+    
+    
+            var circle_marker_d571df3b29e6a78c96c7a1fab3611ae1 = L.circleMarker(
+                [44.942778, -93.116667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_c6816e80a1a93b7b735db7b2a5fd7edb = L.popup({"maxWidth": 300});
+
+        
+            var html_703c192dbddcb4f78e35aaf44673fae9 = $(`<div id="html_703c192dbddcb4f78e35aaf44673fae9" style="width: 100.0%; height: 100.0%;"><b>Cathedral of Saint Paul</b><br>239 Selby Ave, Saint Paul, MN 55102<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_c6816e80a1a93b7b735db7b2a5fd7edb.setContent(html_703c192dbddcb4f78e35aaf44673fae9);
+        
+
+        circle_marker_d571df3b29e6a78c96c7a1fab3611ae1.bindPopup(popup_c6816e80a1a93b7b735db7b2a5fd7edb)
+        ;
+
+        
+    
+    
+            var circle_marker_d746cf539963cec2caa3a2dd8f7e352b = L.circleMarker(
+                [44.941667, -93.133333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_04247823c2cd0b95a628bbf8f55a44c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_86b49e3aa007fccdd28f056006c718e7 = $(`<div id="html_86b49e3aa007fccdd28f056006c718e7" style="width: 100.0%; height: 100.0%;"><b>St. Thomas More Catholic Church</b><br>1079 Summit Ave, Saint Paul, MN 55105<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_04247823c2cd0b95a628bbf8f55a44c0.setContent(html_86b49e3aa007fccdd28f056006c718e7);
+        
+
+        circle_marker_d746cf539963cec2caa3a2dd8f7e352b.bindPopup(popup_04247823c2cd0b95a628bbf8f55a44c0)
+        ;
+
+        
+    
+    
+            var circle_marker_478bef98fb944b522ef1d6b188a986e4 = L.circleMarker(
+                [44.956389, -93.178611],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_473963200250e4a6d8458a3ec47da18d = L.popup({"maxWidth": 300});
+
+        
+            var html_937a32e36f6af90f85f0364a4d8507e0 = $(`<div id="html_937a32e36f6af90f85f0364a4d8507e0" style="width: 100.0%; height: 100.0%;"><b>St. Mark's Catholic Church</b><br>2001 Dayton Ave, Saint Paul, MN 55104<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_473963200250e4a6d8458a3ec47da18d.setContent(html_937a32e36f6af90f85f0364a4d8507e0);
+        
+
+        circle_marker_478bef98fb944b522ef1d6b188a986e4.bindPopup(popup_473963200250e4a6d8458a3ec47da18d)
+        ;
+
+        
+    
+    
+            var circle_marker_b12a86101c060d070dffd25a330ef44b = L.circleMarker(
+                [44.951667, -93.060556],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_9b070295a87427aedc4550e7cbc52f24 = L.popup({"maxWidth": 300});
+
+        
+            var html_832f26ddedd456ea9797528443b52322 = $(`<div id="html_832f26ddedd456ea9797528443b52322" style="width: 100.0%; height: 100.0%;"><b>St. Pascal Baylon Catholic Church</b><br>1757 Conway St, Saint Paul, MN 55106<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_9b070295a87427aedc4550e7cbc52f24.setContent(html_832f26ddedd456ea9797528443b52322);
+        
+
+        circle_marker_b12a86101c060d070dffd25a330ef44b.bindPopup(popup_9b070295a87427aedc4550e7cbc52f24)
+        ;
+
+        
+    
+    
+            var circle_marker_82850b3e9f2fc285bdedf71a7d3bc240 = L.circleMarker(
+                [45.012778, -93.113889],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_d6326339b4692c444584856eb8f0455b = L.popup({"maxWidth": 300});
+
+        
+            var html_ea065bf301afd6ba7a61adce0d0da62d = $(`<div id="html_ea065bf301afd6ba7a61adce0d0da62d" style="width: 100.0%; height: 100.0%;"><b>Maternity of Mary Catholic Church</b><br>1414 Dale St N, Saint Paul, MN 55117<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_d6326339b4692c444584856eb8f0455b.setContent(html_ea065bf301afd6ba7a61adce0d0da62d);
+        
+
+        circle_marker_82850b3e9f2fc285bdedf71a7d3bc240.bindPopup(popup_d6326339b4692c444584856eb8f0455b)
+        ;
+
+        
+    
+    
+            var circle_marker_eea52a8ecf9fca19aa26d320fecc1760 = L.circleMarker(
+                [44.958333, -93.113889],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_76a6e3f1d1330bb38050d1b2d33bb52f = L.popup({"maxWidth": 300});
+
+        
+            var html_ee31807b0d30ceb75b4d72e6302df331 = $(`<div id="html_ee31807b0d30ceb75b4d72e6302df331" style="width: 100.0%; height: 100.0%;"><b>St. Columba Catholic Church</b><br>1327 Lafond Ave, Saint Paul, MN 55104<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_76a6e3f1d1330bb38050d1b2d33bb52f.setContent(html_ee31807b0d30ceb75b4d72e6302df331);
+        
+
+        circle_marker_eea52a8ecf9fca19aa26d320fecc1760.bindPopup(popup_76a6e3f1d1330bb38050d1b2d33bb52f)
+        ;
+
+        
+    
+    
+            var circle_marker_66eef600a4c6842cc74d1e458cefbc48 = L.circleMarker(
+                [44.958333, -93.093056],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_44850c030b492c107bf608f9f5d18fcf = L.popup({"maxWidth": 300});
+
+        
+            var html_fb84de23a0ea7d7889f176c650a55ef1 = $(`<div id="html_fb84de23a0ea7d7889f176c650a55ef1" style="width: 100.0%; height: 100.0%;"><b>St. Agnes Catholic Church</b><br>548 Lafond Ave, Saint Paul, MN 55103<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_44850c030b492c107bf608f9f5d18fcf.setContent(html_fb84de23a0ea7d7889f176c650a55ef1);
+        
+
+        circle_marker_66eef600a4c6842cc74d1e458cefbc48.bindPopup(popup_44850c030b492c107bf608f9f5d18fcf)
+        ;
+
+        
+    
+    
+            var circle_marker_5e9ab57aa430d6d260850d83ff468b57 = L.circleMarker(
+                [44.925556, -93.166667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_91f71798ad0a3e4c948473806d28d7b5 = L.popup({"maxWidth": 300});
+
+        
+            var html_7cf011a02241dbf7ee9403215a382c7c = $(`<div id="html_7cf011a02241dbf7ee9403215a382c7c" style="width: 100.0%; height: 100.0%;"><b>Gloria Dei Lutheran Church</b><br>700 S Snelling Ave, Saint Paul, MN 55116<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_91f71798ad0a3e4c948473806d28d7b5.setContent(html_7cf011a02241dbf7ee9403215a382c7c);
+        
+
+        circle_marker_5e9ab57aa430d6d260850d83ff468b57.bindPopup(popup_91f71798ad0a3e4c948473806d28d7b5)
+        ;
+
+        
+    
+    
+            var circle_marker_a71306a5f864e8e3451aa3c6140528ea = L.circleMarker(
+                [45.080556, -93.148889],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_a75e1a53aa46ca145c765369a7a51db2 = L.popup({"maxWidth": 300});
+
+        
+            var html_820d1e903c457ddc6011ff16e3bd056c = $(`<div id="html_820d1e903c457ddc6011ff16e3bd056c" style="width: 100.0%; height: 100.0%;"><b>Shepherd of the Hills Lutheran Church</b><br>3920 Victoria St N, Shoreview, MN 55126<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_a75e1a53aa46ca145c765369a7a51db2.setContent(html_820d1e903c457ddc6011ff16e3bd056c);
+        
+
+        circle_marker_a71306a5f864e8e3451aa3c6140528ea.bindPopup(popup_a75e1a53aa46ca145c765369a7a51db2)
+        ;
+
+        
+    
+    
+            var circle_marker_95041cec198c60cfe31a646ec946cb5d = L.circleMarker(
+                [45.070556, -93.148889],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_b22526b896cb449d19b0361cd0d03252 = L.popup({"maxWidth": 300});
+
+        
+            var html_1c875a7b54ccce07dcb73117fcfd6457 = $(`<div id="html_1c875a7b54ccce07dcb73117fcfd6457" style="width: 100.0%; height: 100.0%;"><b>St. Odilia Catholic Church</b><br>3495 Victoria St N, Shoreview, MN 55126<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_b22526b896cb449d19b0361cd0d03252.setContent(html_1c875a7b54ccce07dcb73117fcfd6457);
+        
+
+        circle_marker_95041cec198c60cfe31a646ec946cb5d.bindPopup(popup_b22526b896cb449d19b0361cd0d03252)
+        ;
+
+        
+    
+    
+            var circle_marker_b966bd8a5603cd598b55009d0b16d884 = L.circleMarker(
+                [44.95, -93.093611],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_0549115592f7160fbb3acb49fd48417f = L.popup({"maxWidth": 300});
+
+        
+            var html_0b30e2a535dba7b3406c4c95ef33aec9 = $(`<div id="html_0b30e2a535dba7b3406c4c95ef33aec9" style="width: 100.0%; height: 100.0%;"><b>St. John the Evangelist Episcopal Church</b><br>60 Kent St N, Saint Paul, MN 55102<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_0549115592f7160fbb3acb49fd48417f.setContent(html_0b30e2a535dba7b3406c4c95ef33aec9);
+        
+
+        circle_marker_b966bd8a5603cd598b55009d0b16d884.bindPopup(popup_0549115592f7160fbb3acb49fd48417f)
+        ;
+
+        
+    
+    
+            var circle_marker_8f959723e08a46db8054dfe17503e522 = L.circleMarker(
+                [44.945556, -93.1],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_fc30c089eb158c1131796095f076d4a3 = L.popup({"maxWidth": 300});
+
+        
+            var html_58612700c3a7d298b39e121aae547b71 = $(`<div id="html_58612700c3a7d298b39e121aae547b71" style="width: 100.0%; height: 100.0%;"><b>Assumption Catholic Church</b><br>51 7th St W, Saint Paul, MN 55102<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_fc30c089eb158c1131796095f076d4a3.setContent(html_58612700c3a7d298b39e121aae547b71);
+        
+
+        circle_marker_8f959723e08a46db8054dfe17503e522.bindPopup(popup_fc30c089eb158c1131796095f076d4a3)
+        ;
+
+        
+    
+    
+            var circle_marker_9c411347ab5ff60073bb5adb9f6f390a = L.circleMarker(
+                [45.017778, -93.108333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_35163d9b8c6a3d591f0a19ea0db31274 = L.popup({"maxWidth": 300});
+
+        
+            var html_dbb0dafb029a09ddf894369a98435a6d = $(`<div id="html_dbb0dafb029a09ddf894369a98435a6d" style="width: 100.0%; height: 100.0%;"><b>New Life Church of God</b><br>520 Maryland Ave W, Saint Paul, MN 55117<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_35163d9b8c6a3d591f0a19ea0db31274.setContent(html_dbb0dafb029a09ddf894369a98435a6d);
+        
+
+        circle_marker_9c411347ab5ff60073bb5adb9f6f390a.bindPopup(popup_35163d9b8c6a3d591f0a19ea0db31274)
+        ;
+
+        
+    
+    
+            var circle_marker_64defa769f9cfd107a5e143f09f2eed2 = L.circleMarker(
+                [45.024444, -93.156667],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_93fd18357292eaa5d4fee7e2c4906493 = L.popup({"maxWidth": 300});
+
+        
+            var html_ec4da0ecec843437892ac22e8874284b = $(`<div id="html_ec4da0ecec843437892ac22e8874284b" style="width: 100.0%; height: 100.0%;"><b>Saint Rose of Lima Catholic Church</b><br>2048 Hamline Ave N, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_93fd18357292eaa5d4fee7e2c4906493.setContent(html_ec4da0ecec843437892ac22e8874284b);
+        
+
+        circle_marker_64defa769f9cfd107a5e143f09f2eed2.bindPopup(popup_93fd18357292eaa5d4fee7e2c4906493)
+        ;
+
+        
+    
+    
+            var circle_marker_dced7d9c7787a5db15e711544822621e = L.circleMarker(
+                [45.037222, -93.169722],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_c111cfb6906c43389b1b42d20dafda24 = L.popup({"maxWidth": 300});
+
+        
+            var html_037f668518783337651333f63bcaad58 = $(`<div id="html_037f668518783337651333f63bcaad58" style="width: 100.0%; height: 100.0%;"><b>Prince of Peace Lutheran Church</b><br>2561 Victoria St N, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_c111cfb6906c43389b1b42d20dafda24.setContent(html_037f668518783337651333f63bcaad58);
+        
+
+        circle_marker_dced7d9c7787a5db15e711544822621e.bindPopup(popup_c111cfb6906c43389b1b42d20dafda24)
+        ;
+
+        
+    
+    
+            var circle_marker_dabe7f81a1991b41031f446860712a02 = L.circleMarker(
+                [45.040556, -93.085278],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_0beb0bc8d736d9e560e8c0393c85a592 = L.popup({"maxWidth": 300});
+
+        
+            var html_6230fd0a05803fbb0efd36e6d435d7a6 = $(`<div id="html_6230fd0a05803fbb0efd36e6d435d7a6" style="width: 100.0%; height: 100.0%;"><b>North Heights Lutheran Church (Roseville)</b><br>2701 Rice St, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_0beb0bc8d736d9e560e8c0393c85a592.setContent(html_6230fd0a05803fbb0efd36e6d435d7a6);
+        
+
+        circle_marker_dabe7f81a1991b41031f446860712a02.bindPopup(popup_0beb0bc8d736d9e560e8c0393c85a592)
+        ;
+
+        
+    
+    
+            var circle_marker_7af545ef05317315e08199ca2108e5eb = L.circleMarker(
+                [45.0, -93.156111],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_3ef42f253e7d036bc96004a8b7a6f451 = L.popup({"maxWidth": 300});
+
+        
+            var html_68fd2bdfa3b1182442aa13deaa8d0f1a = $(`<div id="html_68fd2bdfa3b1182442aa13deaa8d0f1a" style="width: 100.0%; height: 100.0%;"><b>Centennial United Methodist Church (Roseville)</b><br>1524 W County Rd C2, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_3ef42f253e7d036bc96004a8b7a6f451.setContent(html_68fd2bdfa3b1182442aa13deaa8d0f1a);
+        
+
+        circle_marker_7af545ef05317315e08199ca2108e5eb.bindPopup(popup_3ef42f253e7d036bc96004a8b7a6f451)
+        ;
+
+        
+    
+    
+            var circle_marker_5178ae0fadc9a52a20e3a31e9d704c47 = L.circleMarker(
+                [45.025, -93.132778],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_6f50fa143d8ee7557b3dd23169c19102 = L.popup({"maxWidth": 300});
+
+        
+            var html_f40130faa188c74bd0652b098a2d6114 = $(`<div id="html_f40130faa188c74bd0652b098a2d6114" style="width: 100.0%; height: 100.0%;"><b>Corpus Christi Catholic Church</b><br>2131 Fairview Ave N, Roseville, MN 55113<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_6f50fa143d8ee7557b3dd23169c19102.setContent(html_f40130faa188c74bd0652b098a2d6114);
+        
+
+        circle_marker_5178ae0fadc9a52a20e3a31e9d704c47.bindPopup(popup_6f50fa143d8ee7557b3dd23169c19102)
+        ;
+
+        
+    
+    
+            var circle_marker_44894bb6b474b594dfe97e420383b7a5 = L.circleMarker(
+                [45.0175, -93.068333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_ea9c21c26c61b5060da83a10d761720b = L.popup({"maxWidth": 300});
+
+        
+            var html_c2f9b3526ae2a200d0cb6d2bd82c8a04 = $(`<div id="html_c2f9b3526ae2a200d0cb6d2bd82c8a04" style="width: 100.0%; height: 100.0%;"><b>St. Jerome Catholic Church</b><br>380 E Larpenteur Ave, Maplewood, MN 55117<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_ea9c21c26c61b5060da83a10d761720b.setContent(html_c2f9b3526ae2a200d0cb6d2bd82c8a04);
+        
+
+        circle_marker_44894bb6b474b594dfe97e420383b7a5.bindPopup(popup_ea9c21c26c61b5060da83a10d761720b)
+        ;
+
+        
+    
+    
+            var circle_marker_9a5756df6b3c8f8b3997ed74f2df6884 = L.circleMarker(
+                [45.025833, -93.068056],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_e7c26d2afa40f80ecc2ca0b80c46b1ef = L.popup({"maxWidth": 300});
+
+        
+            var html_4a84d1c214690e6e0da65430c411415c = $(`<div id="html_4a84d1c214690e6e0da65430c411415c" style="width: 100.0%; height: 100.0%;"><b>St. John the Evangelist Catholic Church (Little Canada)</b><br>380 Little Canada Rd E, Little Canada, MN 55117<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_e7c26d2afa40f80ecc2ca0b80c46b1ef.setContent(html_4a84d1c214690e6e0da65430c411415c);
+        
+
+        circle_marker_9a5756df6b3c8f8b3997ed74f2df6884.bindPopup(popup_e7c26d2afa40f80ecc2ca0b80c46b1ef)
+        ;
+
+        
+    
+    
+            var circle_marker_7bca04b2c98765262628ffeaa07d5471 = L.circleMarker(
+                [45.068056, -92.986111],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_b5593e36ac906ad46b0a4d70129506f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_b6c855105c72e0d1f7fa665a711fc094 = $(`<div id="html_b6c855105c72e0d1f7fa665a711fc094" style="width: 100.0%; height: 100.0%;"><b>Presentation of the Blessed Virgin Mary</b><br>1725 Kennard St, Maplewood, MN 55109<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_b5593e36ac906ad46b0a4d70129506f0.setContent(html_b6c855105c72e0d1f7fa665a711fc094);
+        
+
+        circle_marker_7bca04b2c98765262628ffeaa07d5471.bindPopup(popup_b5593e36ac906ad46b0a4d70129506f0)
+        ;
+
+        
+    
+    
+            var circle_marker_2a9ce3e8d6beb0151cdcbb30a01866c1 = L.circleMarker(
+                [45.077778, -92.998333],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fac74f6f9789159344c694b288c7ea0f);
+        
+    
+        var popup_95959e109c93df08f7d61e0b83a489b9 = L.popup({"maxWidth": 300});
+
+        
+            var html_c18d3f8a3f2dbee9fb15314811a6bf67 = $(`<div id="html_c18d3f8a3f2dbee9fb15314811a6bf67" style="width: 100.0%; height: 100.0%;"><b>St. Peter Catholic Church (North St Paul)</b><br>2600 Margaret St N, North St Paul, MN 55109<br>Church<br>Readiness: 7 (Moderate)</div>`)[0];
+            popup_95959e109c93df08f7d61e0b83a489b9.setContent(html_c18d3f8a3f2dbee9fb15314811a6bf67);
+        
+
+        circle_marker_2a9ce3e8d6beb0151cdcbb30a01866c1.bindPopup(popup_95959e109c93df08f7d61e0b83a489b9)
+        ;
+
+        
+    
+</script>
+</html>
